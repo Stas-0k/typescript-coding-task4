@@ -1,6 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import RequestComponent from './homework/2';
+import { FormComponent } from './homework/3';
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
           Learn React
         </a>
       </header>
+      <RequestComponent/>
+      <FormComponent/>
     </div>
   );
 }
